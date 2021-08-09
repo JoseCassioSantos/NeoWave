@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 0px;
+}
+
+#section2 {
+  margin: 1px;
+  background-color: none;
+  justify-content: center;
+}
+
+#section3 {
+  border: 0;
+  padding: 10px;
+  height: 10px;
+}
+
+#section4 {
+  border: 0;
+  padding: 10px;
+  height: 10px;
+}
+
+body {
+  background: linear-gradient(
+      450.54deg,
+      rgb(0, 153, 255) 0%,
+      rgb(187, 2, 187) 100%
+    )
+    no-repeat;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+
+body p {
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  display: flex;
+  color: white;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 35%;
+}
+
+body strong {
+  padding: 10px 10px 170px;
+  border: solid 5px;
+  border-color: rgb(0, 153, 255);
+  background: white;
+ 
+}
+header {
+  
+  display: inline;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header div{
+ 
+  margin:auto;
+  display: flex;
+  background-color:white;
+  justify-items:center ;
+  opacity: 0.9;
+  box-shadow: 0px 0px 25px grey;
+  
+}
+
+header img {
+  text-align: right;
+  max-width: 40px;
+  min-width: 40px;
+  margin: 0;
+  opacity: 100%;
+}
+
+header h1 {
+  color: navy;
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+ 
+}
+
+
+
+div {
+  overflow: auto;
+  text-size-adjust: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 15px;
+  
+}
+
+div ul li {
+  display: inline;
+  text-align: center;
+  opacity: 100%;
+  
+
+
+  
+}
+
+a {
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 15px;
+  padding: 2px;
+  transition: margin 1.5s;
+  transition: padding 1.5s;
+  transition: font-size 1.5s;
+}
+
+a:hover {
+  background: rgb(18, 137, 192);
+  border-radius: 15px;
+  margin: 3    0px;
+  padding: 10px;
+  font-size: 20px;
+  
+  
+}
+
+a:visited{
+  color: navy;
+  
+  
+  
+}
+
+
+footer p {
+  
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding-left: 15px;
+  background: linear-gradient(
+      450.54deg,
+      rgb(18, 138, 218) 0%,
+      rgb(187, 2, 187) 100%
+    )
+    no-repeat;
+    
+}
+
+#bodyimg{
+  background:white;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+
+  border-radius: 15px;
+
+}
+
+button:hover{
+  cursor: pointer;
+  border-radius: 15px;
+  background-color:purple;
+  color: white;
+
+
+}
